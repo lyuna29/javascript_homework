@@ -59,3 +59,16 @@ const copiedProducts = [...products].sort(
 );
 
 console.log(copiedProducts);
+
+//7
+const user = {
+  이름: "병수",
+  나이: 20,
+  주소: "시골",
+};
+
+const { 이름, 나이, 주소 } = user;
+
+console.log(이름);
+console.log(나이);
+console.log(주소);
